@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HealthPulse Medical Center</title>
+    <link rel="shortcut icon" href="assets/images/fav.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div id="nav-head" class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 no-padding col-sm-12 nav-img">
+                        <img src="assets/images/logo.png" alt="">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact_us.html">Contact Us</a></li>
+                        </ul>
+                    </div>  
+                    <div class="col-sm-2 d-none d-lg-block appoint">
+                        <button id="appointmentButton" class="btn btn-info appointment-button" onclick="redirectToAppointment()">Book an Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <div class="slider-detail">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="assets/images/slider/slider_1.jpg" alt="First slide">
+                    <div class="carousel-caption fvgb d-none d-md-block">
+                        <h5 class="animated bounceInDown">Newest Technologies</h5>
+                        <p class="animated bounceInLeft">State-of-the-art medical equipment and technologies for precise diagnoses and treatments.</p>
+                         
+                         <div class="row vbh">
+                             
+                             <div class="btn btn-info animated bounceInUp appointment-button" onclick="redirectToAppointment()"> Book an Appointment </div>
+                         </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/images/slider/slider_3.jpg" alt="Third slide">
+                     <div class="carousel-caption vdg-cur d-none d-md-block">
+                        <h5 class="animated bounceInDown">Experienced Doctors</h5>
+                        <p class="animated bounceInLeft">Skilled and compassionate medical professionals dedicated to your well-being.</p>
+                         
+                         <div class="row vbh">
+                             
+                             <div class="btn btn-info animated bounceInUp appointment-button" onclick="redirectToAppointment()"> Book an Appointment </div>
+                         </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </div>
+
+
+    <section class="key-features"> 
+            <div class="row no-margin">
+                <div class="col-lg-3 kvxol col-md-6">
+                    <div class="single-key ky-1">
+                        <i class="fas fa-hospital-alt"></i>
+                        <h5>Newest Technologies</h5>
+                        <p>State-of-the-art medical equipment and technologies for precise diagnoses and treatments.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 kvxol  col-md-6">
+                    <div class="single-key ky-2">
+                        <i class="fas fa-user-md"></i>
+                        <h5>Experianced Doctors</h5>
+                        <p>Skilled andcertified medical compassionate professionals dedicated to your well-being and comprehensive care.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 kvxol col-md-6">
+                    <div class="single-key ky-1">
+                        <i class="fas fa-briefcase-medical"></i>
+                        <h5>Health Monitoring</h5>
+                        <p>Integrated tools for monitoring vital signs and health metrics. <br> </br></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 kvxol col-md-6">
+                    <div class="single-key ky-2">
+                        <i class="fas fa-capsules"></i>
+                        <h5>Pharmacy Services</h5>
+                        <p>Our pharmacy offers a wide range of pharmaceutical products and services to cater to your healthcare needs.</p>
+                    </div>
+                </div>
+
+     
+               
+            </div>
+    </section>
+
+
+    <section class="with-medical">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 txtr">
+                    <h4 style="color: #001F3F;">Why choose Health Care with <br>
+                     <span>HealthPlus</span>   
+                    </h4>
+                    <p>At HealthPlus, we envision a healthcare facility where patients are not merely recipients of medical care but cherished individuals on the path to wellness. Our mission is to provide not only state-of-the-art treatments but also to create a sanctuary of empathy and understanding. Here, every patient is more than just a medical case; they are part of our extended family.</p>
+                    <p>The heart of HealthPlus beats within its highly skilled medical professionals. From pediatricians tenderly caring for children's health to skilled surgeons mending broken lives, every doctor at HealthPlus is not just an expert but a compassionate healer. Their expertise, symbolized by the prestigious intelligence of cadmium green, forms the cornerstone of the center's reputation.</p>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="assets/images/why.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="key-features department">
+        <div class="container">
+            <div class="inner-title">
+
+                <h2 style="color: #001f3f">Our Key Features</h2>
+                <p style="color: #001f3f">Take a look at some of our key features</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-key">
+                        <i class="fas fa-stethoscope"></i>
+                        <h5>Specialized Consultations</h5>
+                        <p class="keyf">Our experienced specialists provide personalized consultations, ensuring accurate diagnoses and effective treatment plans.</p>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-key">
+                        <i class="fas fa-flask"></i>
+                        <h5>Advanced Diagnostics</h5>
+                        <p >We utilize cutting-edge diagnostic equipment to conduct thorough examinations, enabling precise identification of medical conditions.</p>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-key">
+                       <i class="fas fa-user-md"></i>
+                        <h5>Expert Medical Team</h5>
+                        <p>Our team of skilled doctors and healthcare professionals are dedicated to providing compassionate and top-quality medical care. <br> </br></p>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-key">
+                        <i class="fas fa-hospital"></i>
+                        <h5>State-of-the-Art Facilities</h5>
+                        <p>We boast modern and well-equipped facilities, ensuring a comfortable environment for patients and efficient healthcare delivery.</p>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-key">
+                        <i class="fas fa-calendar-check"></i>
+                        <h5>Timely Appointments</h5>
+                        <p>Our streamlined appointment system ensures minimal waiting times, allowing patients to receive prompt medical attention.<br></br></p>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-key">
+                        <i class="fas fa-hands-helping"></i>
+                        <h5>Compassionate Care</h5>
+                        <p>We provide compassionate and empathetic care, making patients feel supported and valued throughout their healthcare journey.<br></br></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="our-blog">
+        <div class="container">
+            <div class="row session-title">
+                <h2> Our Project Updates </h2>
+                <p>Explore the latest news and updates about our project</p>
+            </div>
+            <div class="blog-row row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <figure>
+                            <img src="assets/images/blog/blog_01.jpg" alt="Project Update 1">
+                        </figure>
+                        <div class="blog-detail">
+                            <small>By Admin | October 15 2023</small>
+                            <h4>Launching HealthPulse Website</h4>
+                            <p>Exciting news! We have officially launched the HealthPulse website, your gateway to a healthier life. Explore our services, meet our team, and stay updated with our latest medical advancements.</p>
+                            <div class="link">
+                                <a href="">Read more </a><i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <figure>
+                            <img src="assets/images/blog/blog_02.jpg" alt="Project Update 2">
+                        </figure>
+                        <div class="blog-detail">
+                            <small>By Admin | October 20 2023</small>
+                            <h4>Community Outreach Program</h4>
+                            <p>HealthPulse is organizing a free health camp in the local community this weekend. Join us for complimentary health check-ups, consultations, and informative sessions. Together, we build a healthier society!</p>
+                            <div class="link">
+                                <a href="">Read more </a><i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <figure>
+                            <img src="assets/images/blog/blog_03.jpg" alt="Project Update 3">
+                        </figure>
+                        <div class="blog-detail">
+                            <small>By Admin | October 25 2023</small>
+                            <h4>Empowering Wellness: HealthPulse Initiatives</h4>
+                            <p>Discover our ongoing initiatives to promote wellness, fitness workshops, mental health campaigns, and nutritional guidance. Join us in fostering a healthier community.</p>
+                            <div class="link">
+                                <a href="">Read more </a><i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h2>About HealthPulse</h2>
+                    <p>
+                        HealthPulse is a leading medical center dedicated to providing exceptional healthcare services to our community. Our skilled professionals combine expertise and compassion to ensure the well-being of our patients.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2>Quick Links</h2>
+                    <ul class="list-unstyled link-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#doctors">Our Doctors</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2>Contact Information</h2>
+                    <address class="md-margin-bottom-40">
+                        123 Medical Avenue <br>
+                        Astana, XYZ 12345 <br>
+                        Phone: +123 456 7890 <br>
+                        Email: <a href="mailto:info@healthpulse.com">info@healthpulse.com</a><br>
+                        Web: <a href="https://www.healthpulse.com">www.healthpulse.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+        
+
+    </footer>
+    <div class="copy">
+            <div class="container">
+                <a href="https://www.smarteyeapps.com/">2023 &copy; All Rights Reserved</a>
+                
+                <span>
+                <a><i class="fab fa-github"></i></a>
+                <a><i class="fab fa-google-plus-g"></i></a>
+                <a><i class="fab fa-pinterest-p"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-facebook-f"></i></a>
+        </span>
+            </div>
+
+        </div>
+
+</body>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</html>
